@@ -27,7 +27,7 @@ def get_pickup_line():
         return (
             jsonify(
                 {
-                    "error": f"Invalid or missing category parameter. Allowed categories: {', '.join(ALLOWED_CATEGORIES)}"
+                    "error": f"Invalid or missing category. Allowed categories: {', '.join(ALLOWED_CATEGORIES)}"
                 }
             ),
             400,
